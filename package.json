@@ -1,0 +1,14 @@
+{
+  "name": "nextstep",
+  "version": "1.0.0",
+  "description": "NextStep — Student Career & Financial Wellness Platform",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start:server": "cd server && npm start",
+    "test": "cd server && npm test"
+  }
+}

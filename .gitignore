@@ -1,0 +1,33 @@
+# NextStep — Git Ignore
+
+# Environment files — NEVER commit these
+.env
+.env.local
+.env.production
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/settings.json
+*.swp
+
+# Test coverage
+coverage/
+
+# All environment files
+.env*
+!.env.example
